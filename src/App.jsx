@@ -7,6 +7,7 @@ import Services from './sections/Services'
 import Contact from './sections/Contact'
 import FAQ from './sections/FAQ'
 import Testimonials from './sections/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -32,6 +33,8 @@ function App() {
       <Contact
         selectedService={selectedService}
       />
+
+      <Footer />
     </>
   )
 }
