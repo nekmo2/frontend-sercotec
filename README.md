@@ -119,6 +119,12 @@ src/
 
 - Álvaro Vasquez
 - Bruno Neira
+
+## Proyecto
+
+Evaluación 3 - Frontend 
+Centro de Negocios SERCOTEC Santiago
+
 ---
 
 ## Repositorio GitHub
