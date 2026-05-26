@@ -1,16 +1,126 @@
-# React + Vite
+# Centro de Desarrollo de Negocios Santiago - SERCOTEC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desarrollada para la Evaluación Frontend utilizando React y Tailwind CSS, enfocada en modernizar el sitio del Centro de Desarrollo de Negocios Santiago de SERCOTEC.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- Swiper.js
+- React Icons
+- Git y GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Características del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Diseño responsive para móviles y escritorio
+- Navegación interactiva
+- Consumo de API mediante fetch()
+- Componentes reutilizables
+- Testimonios con videos
+- Formulario validado con React
+- Accesibilidad básica
+- Optimización de imágenes
+- Footer con redes sociales
+- Interfaz moderna centrada en la experiencia de usuario
+
+---
+
+## Componentes desarrollados
+
+### Navbar
+Barra de navegación responsive con menú móvil.
+
+### Hero
+Sección principal con llamado a la acción.
+
+### Nosotros
+Información institucional del Centro de Desarrollo de Negocios.
+
+### Servicios
+Tarjetas reutilizables cargadas dinámicamente desde una API.
+
+### Testimonios
+Carrusel interactivo con videos reales de YouTube.
+
+### FAQ
+Preguntas frecuentes desplegables.
+
+### Contacto
+Formulario con validación frontend.
+
+### Footer
+Información institucional y redes sociales oficiales.
+
+---
+
+## Instalación del proyecto
+
+Clonar el repositorio:
+
+```bash
+git clone URL_DEL_REPOSITORIO
+```
+
+Ingresar a la carpeta:
+
+```bash
+cd frontend-sercotec
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+---
+
+## Estructura del proyecto
+
+```plaintext
+src/
+│
+├── components/
+├── sections/
+├── data/
+├── assets/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Buenas prácticas implementadas
+
+- Componentes reutilizables
+- Organización modular
+- Validación de formularios
+- Lazy loading de imágenes
+- Uso de estados con React Hooks
+- Navegación accesible
+- Diseño responsive
+- Uso de commits descriptivos
+
+---
+
+## Integrantes
+
+- Álvaro Vasquez
+- Bruno Neira
+---
+
+## Repositorio GitHub
+
+https://github.com/nekmo2/frontend-sercotec
