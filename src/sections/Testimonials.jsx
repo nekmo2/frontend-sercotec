@@ -64,6 +64,7 @@ function Testimonials() {
                 >
 
                   <img
+                    loading="lazy"
                     src={`https://img.youtube.com/vi/${testimonial.videoId}/maxresdefault.jpg`}
                     alt={testimonial.title}
                     className="w-full h-64 object-cover"

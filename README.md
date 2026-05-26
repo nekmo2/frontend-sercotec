@@ -64,7 +64,7 @@ Información institucional y redes sociales oficiales.
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git https://github.com/nekmo2/frontend-sercotec.git
 ```
 
 Ingresar a la carpeta:

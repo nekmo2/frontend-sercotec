@@ -24,6 +24,7 @@ function ServiceCard({
     <div className="bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
 
       <img
+        loading="lazy"
         src={image}
         alt={title}
         className="h-56 w-full object-cover"

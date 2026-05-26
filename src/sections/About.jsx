@@ -69,6 +69,7 @@ function About() {
         <div className="overflow-hidden rounded-3xl shadow-xl">
 
           <img
+            loading="lazy"
             src={teamImage}
             alt="Equipo SERCOTEC"
             className="w-full h-[500px] object-cover"
