@@ -12,7 +12,10 @@ function Testimonials() {
     useState(null)
 
   return (
-    <section className="py-24 bg-white">
+    <section
+  id="testimonios"
+  className="py-24 bg-white"
+> 
 
       <div className="max-w-6xl mx-auto px-6">
 
