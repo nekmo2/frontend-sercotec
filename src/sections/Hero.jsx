@@ -1,24 +1,32 @@
 function Hero() {
   return (
-    <section className="min-h-screen bg-blue-700 text-white flex items-center">
-      <div className="max-w-7xl mx-auto px-6">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Impulsamos el crecimiento de tu negocio
-        </h1>
+    <section className="bg-blue-900 text-white py-24 px-6">
 
-        <p className="text-xl max-w-2xl mb-8">
-          Centro de Negocios SERCOTEC Santiago:
-          asesoría, innovación y apoyo para pequeñas empresas.
-        </p>
+  <div className="max-w-5xl mx-auto text-center">
 
-        <a
-          href="#contacto"
-          className="bg-white text-blue-700 px-6 py-3 rounded-xl font-semibold hover:bg-gray-200 transition"
-        >
-          Contáctanos
-        </a>
-      </div>
-    </section>
+    <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+      Impulsamos el desarrollo de las micro y pequeñas empresas en Chile
+    </h1>
+
+    <p className="text-lg md:text-xl text-blue-100 mb-10">
+      El Centro de Desarrollo de Negocios SERCOTEC Santiago entrega asesoría especializada,
+      acompañamiento técnico y herramientas para fortalecer la gestión, innovación y crecimiento sostenible de tu negocio.
+    </p>
+
+    <a
+      href="#contacto"
+      className="bg-white text-blue-900 font-semibold px-8 py-4 rounded-full hover:bg-blue-100 transition"
+    >
+      Contáctanos
+    </a>
+
+    <p className="text-blue-200 mt-6 text-sm">
+  Atención gratuita para emprendedores y mipymes en todo Chile
+</p>
+
+  </div>
+
+</section>
   )
 }
 
