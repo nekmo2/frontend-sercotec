@@ -124,3 +124,10 @@ src/
 ## Repositorio GitHub
 
 https://github.com/nekmo2/frontend-sercotec
+
+---
+
+## Demo en vivo
+
+🔗 Live site: https://frontend-sercotec.vercel.app  
+🚀 Deploy: Vercel
