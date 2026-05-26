@@ -6,6 +6,7 @@ import About from './sections/About'
 import Services from './sections/Services'
 import Contact from './sections/Contact'
 import FAQ from './sections/FAQ'
+import Testimonials from './sections/Testimonials'
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
       <Services
         onSelectService={setSelectedService}
       />
+
+      <Testimonials />
 
       <FAQ />
 
